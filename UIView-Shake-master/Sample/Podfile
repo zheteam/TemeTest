@@ -1,0 +1,13 @@
+target 'Sample' do
+
+end
+
+target 'SampleTests' do
+  pod 'Expecta+Snapshots', '~> 3.0.0'
+  pod 'Specta', '~> 1.0.5'
+  pod 'Expecta', '~> 1.0.5'
+  pod 'OCMock', '~> 3.2'
+end
+
+inhibit_all_warnings!
+use_frameworks!
